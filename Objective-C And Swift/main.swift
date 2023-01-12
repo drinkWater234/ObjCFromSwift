@@ -7,5 +7,7 @@
 
 import Foundation
 
-print("Hello, World!")
+// Using objective C code in Swift
+var objectiveCClassIntance = MyObjectiveCClass(prompt: "World")
+objectiveCClassIntance?.sayHello()
 
